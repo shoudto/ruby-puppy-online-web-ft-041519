@@ -10,10 +10,9 @@ class Dog
     @name = name 
     @@all << self  
   end 
-  binding.pry 
+   
   def self.all
-    @@all
-    puts name 
+    @@all.each {|puppy| puts puppy.name}
   end 
   
   def self.clear_all 
