@@ -13,7 +13,8 @@ class Dog
   end 
   
   def self.all
-    @@all.uniq 
+    @@all
+    puts name 
   end 
   
   def self.clear_all 
