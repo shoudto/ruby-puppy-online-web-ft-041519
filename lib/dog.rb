@@ -13,6 +13,6 @@ class Dog
   end 
   
   def self.all
-    @@all 
+    @@all.uniq 
   end 
 end 
