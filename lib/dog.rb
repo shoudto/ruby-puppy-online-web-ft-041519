@@ -15,4 +15,8 @@ class Dog
   def self.all
     @@all.uniq 
   end 
+  
+  def self.clear_all 
+    @@all 
+  end 
 end 
